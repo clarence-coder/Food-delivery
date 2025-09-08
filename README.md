@@ -1,4 +1,4 @@
-<h1 align="center">🍴 Savory Delivery</h1>
+<h1 align="center">🍴 Savory Delivery - A Clarence Project</h1>
 
 <p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
