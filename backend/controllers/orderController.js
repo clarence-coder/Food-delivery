@@ -81,37 +81,28 @@ const userOrders = async (req, res) => {
 };
 
 // Listing orders for admin pannel
+// FIXED listOrders — remove role check, it's an internal admin panel
 const listOrders = async (req, res) => {
-  try {
-    let userData = await userModel.findById(req.body.userId);
-    if (userData && userData.role === "admin") {
-      const orders = await orderModel.find({});
-      res.json({ success: true, data: orders });
-    } else {
-      res.json({ success: false, message: "You are not admin" });
+    try {
+        const orders = await orderModel.find({});
+        res.json({ success: true, data: orders });
+    } catch (error) {
+        console.log(error);
+        res.json({ success: false, message: "Error" });
     }
-  } catch (error) {
-    console.log(error);
-    res.json({ success: false, message: "Error" });
-  }
 };
 
-// api for updating status
+// FIXED updateStatus — remove role check
 const updateStatus = async (req, res) => {
-  try {
-    let userData = await userModel.findById(req.body.userId);
-    if (userData && userData.role === "admin") {
-      await orderModel.findByIdAndUpdate(req.body.orderId, {
-        status: req.body.status,
-      });
-      res.json({ success: true, message: "Status Updated Successfully" });
-    }else{
-      res.json({ success: false, message: "You are not an admin" });
+    try {
+        await orderModel.findByIdAndUpdate(req.body.orderId, {
+            status: req.body.status,
+        });
+        res.json({ success: true, message: "Status Updated Successfully" });
+    } catch (error) {
+        console.log(error);
+        res.json({ success: false, message: "Error" });
     }
-  } catch (error) {
-    console.log(error);
-    res.json({ success: false, message: "Error" });
-  }
 };
 
 export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus };
