@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">  
             <div className="footer-content-left">  
                 <img src={assets.logo} alt="" />  
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis quia quam laborum fuga error ipsa eveniet ipsum dolore ratione hic accusantium obcaecati quaerat culpa totam quibusdam, aliquid voluptatem cupiditate.</p>
+                <p>This food website is a creative project made independently by Clarence, featuring delicious recipes, restaurant inspirations, and modern culinary ideas designed to provide users with an enjoyable and interactive food experience online.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
