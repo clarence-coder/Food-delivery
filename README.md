@@ -21,20 +21,25 @@ Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 
 
 ### Home Page
+#1.
 ![Home Page](./screenshots/homepage1.png)
 
+#2.
 ![Home Page](./screenshots/homepage2.png)
 
 ### Cart Page
-
+#1.
 ![Home Page](./screenshots/homepage3.png)
 
 
 ### Admin Dashboard
+#1.
 ![Admin Dashboard](./screenshots/admin1.png)
 
+#2.
 ![Admin Dashboard](./screenshots/admin2.png)
 
+#3.
 ![Admin Dashboard](./screenshots/admin3.png)
 
 ## 🚀 Getting Started
