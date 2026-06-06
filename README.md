@@ -16,8 +16,8 @@
 ## 🌍 Live Preview
 
 Check out the deployed project here:
-
-👉 https://xyz.com
+Click this first: https://food-del-backend-izxo.onrender.com/
+Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 
 ## 🚀 Getting Started
 
