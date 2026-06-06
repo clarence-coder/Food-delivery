@@ -13,6 +13,12 @@
 
 ---
 
+## 🌍 Live Preview
+
+Check out the deployed project here:
+
+👉 https://xyz.com
+
 ## 🚀 Getting Started
 
 Before running the project, make sure you have:
