@@ -19,6 +19,22 @@ Check out the deployed project here:
 Click this first: https://food-del-backend-izxo.onrender.com/
 Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 
+
+### Home Page
+![Home Page](./screenshots/homepage1.png)
+
+![Home Page](./screenshots/homepage2.png)
+
+![Home Page](./screenshots/homepage3.png)
+
+
+### Admin Dashboard
+![Admin Dashboard](./screenshots/admin1.png)
+
+![Admin Dashboard](./screenshots/admin2.png)
+
+![Admin Dashboard](./screenshots/admin3.png)
+
 ## 🚀 Getting Started
 
 Before running the project, make sure you have:
