@@ -25,6 +25,8 @@ Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 
 ![Home Page](./screenshots/homepage2.png)
 
+### Cart Page
+
 ![Home Page](./screenshots/homepage3.png)
 
 
