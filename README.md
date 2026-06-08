@@ -29,8 +29,6 @@ Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 - Multer
 - Deployment on Render.
 
-### Feedback
-Feedbacks are always appreciated, contact via Email or Linkedin! 
 ### Features
 - User Panel
 - Admin Panel
