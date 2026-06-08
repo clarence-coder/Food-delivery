@@ -22,21 +22,23 @@ Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 ### Features
 - User Panel
 - Admin Panel
-JWT Authentication
-Password Hashing with Bcrypt
-Stripe Payment Integration
-Login/Signup
-Logout
-Add to Cart
-Place Order
-Order Management
-Products Management
-Filter Food Products
-Login/Signup
-Authenticated APIs
-REST APIs
-Role-Based Identification
-Beautiful Alerts
+- JWT Authentication
+- Password Hashing with Bcrypt
+- Stripe Payment Integration
+- Login/Signup
+- Logout
+- Add to Cart
+- Place Order
+- Order Management
+- Products Management
+- Filter Food Products
+- Login/Signup
+- Authenticated APIs
+- REST APIs
+- Role-Based Identification
+- Beautiful Alerts
+
+
 ### Home Page
 #1.
 ![Home Page](./screenshots/homepage1.png)
@@ -118,3 +120,17 @@ STRIPE_SECRET_KEY=your_secret_key_here
 Start the frontend first, then the admin panel, and finally the backend.
 
 Ensure your .env and database are correctly set up to avoid runtime errors.
+
+### Tech Stack
+- React
+- Node.js
+- Express.js
+- Mongodb
+- Stripe
+- JWT-Authentication
+- Multer
+Deployed on Render.
+
+### Feedback
+Feedbacks are always appreciated, contact via Email or Linkedin! 
+
