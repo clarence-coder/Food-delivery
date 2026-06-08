@@ -19,6 +19,18 @@ Check out the deployed project here:
 Click this first: https://food-del-backend-izxo.onrender.com/
 Then go here👉 https://food-del-frontend-mg1r.onrender.com/
 
+### Tech Stack
+- React
+- Node.js
+- Express.js
+- Mongodb
+- Stripe
+- JWT-Authentication
+- Multer
+- Deployment on Render.
+
+### Feedback
+Feedbacks are always appreciated, contact via Email or Linkedin! 
 ### Features
 - User Panel
 - Admin Panel
@@ -121,16 +133,5 @@ Start the frontend first, then the admin panel, and finally the backend.
 
 Ensure your .env and database are correctly set up to avoid runtime errors.
 
-### Tech Stack
-- React
-- Node.js
-- Express.js
-- Mongodb
-- Stripe
-- JWT-Authentication
-- Multer
-Deployed on Render.
 
-### Feedback
-Feedbacks are always appreciated, contact via Email or Linkedin! 
 
